@@ -1,0 +1,39 @@
+{
+  "name": "tachyons-html5bp-cms-demo",
+  "version": "1.0.0",
+  "description": "A sandbox site initialized by HTML5BP, styled by Tachyons, and managed by a flat-file CMS.",
+  "private": true,
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browsersync": "0.0.1-security",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "html5-boilerplate": "^7.2.0",
+    "lodash": "^4.17.15",
+    "tachyons": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webuxr/tachyons-cms.git"
+  },
+  "keywords": [
+    "tachyons",
+    "html5",
+    "html5bp",
+    "scss",
+    "sass",
+    "cms"
+  ],
+  "author": "Ryan R. Smith <webuxr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webuxr/tachyons-cms/issues"
+  },
+  "homepage": "https://github.com/webuxr/tachyons-cms#readme"
+}
