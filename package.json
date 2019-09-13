@@ -4,14 +4,20 @@
   "description": "A sandbox site initialized by HTML5BP, styled by Tachyons, and managed by a flat-file CMS.",
   "private": true,
   "scripts": {
-    "start:dev": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "devDependencies": {
     "browsersync": "0.0.1-security",
+    "css-loader": "^3.2.0",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.8.0",
+    "xml-loader": "^1.2.1"
   },
   "dependencies": {
     "html5-boilerplate": "^7.2.0",
